@@ -4,7 +4,6 @@
     <title>Latihan AJAX - Pencarian Mahasiswa</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-        /* Sedikit styling agar tampilannya rapi */
         .hasil-box {
             background-color: #f9f9f9;
             border: 1px solid #ddd;
