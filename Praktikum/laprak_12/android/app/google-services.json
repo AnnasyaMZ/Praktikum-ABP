@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "74446813326",
+    "project_id": "laprak-pertemuan-12",
+    "storage_bucket": "laprak-pertemuan-12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74446813326:android:4f1c9a03a7eb1375b5f1df",
+        "android_client_info": {
+          "package_name": "com.example.laprak_12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrZZS4AWgd5zxztd4kpVLuWjPRS4cgI6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
