@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
-// Handler untuk pesan di background (Logika Asli Asprak)
+
 @pragma('vm:entry-point')
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
@@ -12,7 +12,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Inisialisasi Firebase (Ditambahkan options agar tidak crash di laptopmu, ini legal dan aman!)
+  
   await Firebase.initializeApp(
     options: const FirebaseOptions(
       apiKey: "AIzaSyDrZZS4AWgd5zxztd4kpVLUwjPRS4cgI6Y",
@@ -23,7 +23,7 @@ void main() async {
     ),
   );
 
-  // Daftarkan background handler
+
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
   runApp(const MyApp());
@@ -56,7 +56,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
   @override
   void initState() {
     super.initState();
-    _setupFirebaseMessaging(); // Memanggil logika asli saat aplikasi dibuka
+    _setupFirebaseMessaging();
   }
 
   Future<void> _setupFirebaseMessaging() async {
